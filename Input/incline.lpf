@@ -1,0 +1,18 @@
+#Incline Simulation -- Problem for GSFLOW
+0   -9999.    0     CONSTANTCV                              ILPFCB  HDRY   NPLPF
+1 1                                               LAYTYP
+2 2                                               LAYAVG
+1.0 1.0                                           CHANI
+0 0                                               LAYVKA
+1 1                                               LAYWET
+1.001 1  0                                        WETFCT IWETIT IHDWET
+CONSTANT 0.8                                   HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 1   
+CONSTANT 0.8                                   VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 1 
+constant 1.0e-6                                   SS
+constant 0.18                                     SY                                                                                                                                                                                                                                                               
+CONSTANT 0.1                                      WETDRY 1 
+CONSTANT 8.0e-3                                   HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 2   
+CONSTANT 8.0e-3                                   VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 2                                                                                                                                                                                                                                                                                                  
+constant 1.0e-6                                   SS
+constant 0.14                                     SY       
+CONSTANT 0.1                                      WETDRY 2  
